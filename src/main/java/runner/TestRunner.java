@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		         features="C:\\Users\\HP\\eclipse-workspace\\CucumberBDDFramework\\src\\main\\java\\Features\\ResisterPage.feature",//the path of feature file
+		         features="C:\\Users\\HP\\eclipse-workspace\\CucumberBDDFramework\\src\\main\\java\\Features\\loginPage.feature",//the path of feature file
                  glue= {"stepDefination"},// the path of step defination
                  plugin= {"pretty","html:src/target/cucumber.html"},
                  monochrome=true,//display the output in readable format
